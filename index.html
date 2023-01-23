@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <link rel="stylesheet" href="/Assets/style.css">
+    <title>Smarter Than A Computer</title>
+</head>
+  <body>
+
+        <div class="high-timer">
+            <a href="highscores.html"><button id="scores">View High Scores</button></a>
+            <p id="timer">Timer: 00</p>
+        </div>
+    
+        <div class="quiz-container">
+
+            <div class="begin-quiz" id ="intro">
+                <h1>Welcome To The Quiz</h1>
+                <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+                <button id="start">Start Quiz!</button>
+            </div>
+        
+            <div class="hide" id="quiz">
+              <h2 class = "questions" id="questions"></h2>
+              <div class = "choices" id = "choices"></div>
+           </div> 
+
+            <div class="hide" id="quiz-results">
+                <h2>Congrats!</h2>
+                <p>Your Score: <span id="final-score"></span></p>
+                <label id="initials">Enter Initials:</label>
+                <input type="text" id="name">
+                <button id="submit-score" class ="submit-score">Submit</button>
+            </div>
+       
+        </div>
+
+    <div id ="feedback" class="feedback hide"></div>
+  <script src ="/Assets/questions.js"></script>
+  <script src="/Assets/script.js"></script>
+  </body>
+</html>

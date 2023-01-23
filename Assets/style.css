@@ -1,0 +1,127 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    background-color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+.high-timer {
+    padding: 20px 20px;
+}
+
+.high-timer button {
+    outline:none;
+    background-color: aqua;
+    padding:10px;
+    font-size:1.5em;
+}
+
+.high-timer p {
+    float:right;
+    color:azure;
+    font-size:1.5em;
+}
+
+.quiz-container {
+    height: 500px;
+    background: #092737;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width:50%;
+}
+
+.begin-quiz {
+   margin: 0 auto;
+}
+
+.begin-quiz h1 {
+    font-size: 3em;
+    color:azure;
+}
+
+.begin-quiz p {
+    font-size: 2em;
+    color:azure;
+    margin-top:3%;
+}
+
+.begin-quiz button {
+    outline:none;
+    background-color: aqua;
+    padding:10px;
+    font-size:1.5em;
+    margin-top:5%;
+}
+
+#quiz {
+    display:block; 
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width:50%;
+    height: 100vh;
+    padding: 10px 10px;
+}
+#questions {
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius:5px;
+    width: 100%;
+    padding: 10px 10px;
+}
+.hide h2 {
+    font-size: 3em;
+    color:azure;
+}
+
+/*.choices {
+    display:inline-block;
+    width: auto;
+    font-size:1em;
+    padding:10px;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    background-color: rgb(14, 74, 74);
+} */
+.button {
+    display:block;
+    padding : 10px;
+    outline: none;
+    width: 400px;
+    background-color: #1A3806;
+    font-size: 40px;
+}
+.choices button {
+    display: block;
+    width: 100%;
+    margin: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    background-color: teal;
+    border-radius : 5px;
+    padding: 5px 10px;
+    color:white;
+    border: 0;
+    transition: background-color 0.2s;
+}
+
+.hide {
+    display: none;
+} 
+
+.feedback {
+    font-style : italic;
+    font-size: 100%;
+    margin-top:20px;
+    padding-top:10px;
+    border-top: 2px solid red;
+}
